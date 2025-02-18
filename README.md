@@ -110,6 +110,6 @@ If the context is not able to have information regarding query say"I DONT KNOW"
     answer=[]
     answer.append(response.generations[0].text.strip())
     answer.append(f' ,links:({urls})')
-    return ' '.join(answer)
+    return ' '.join(answer) 
 ```
  
