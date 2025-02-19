@@ -56,6 +56,8 @@
 - Used command xlarge nifty model for text to text generation.
 - for the given model i provided prompt along with retrieved documents and query to generate response that it sticks to context and is realiable.
 - Used gradio for UI
+- One thing to be  **cautious** about is even though command xlarge nifty model is going to be updated with newer features and has capabilities of command xlarge. it is unstable and is not suitable for production.
+   
     
 ## Code 
 ``` python
